@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./header.css">
+  <link rel="stylesheet" href="./portifolio.css">
+  <link rel="shortcut icon" href="./imgs/spiderman.png">
+  <title>Portifólio</title>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+  <header id="header"></header>
+
+  <main>
+    <section>
+      <div class="borda">
+        <div class="sobre">
+          <div class="descricao">
+            <h1>portifólio.</h1>
+            <p class="intro">Veja meus projetos desenvolvidos.</p>
+            <p class="desc">Veja meus projetos na minha página do <a href="https://github.com/018medina?tab=repositories" title="Veja meus projetos no Github!" target="_blank" rel="noopener noreferrer">Github</a>.</p>
+          </div>
+          <div class="minha-img">
+            <img src="./imgs/portfolio.jpg" alt="Foto de mesa com notebook">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="borda">
+      <section class="projetos">
+        <ul class="cards-prjs">
+
+          <li class="item-cards-prjs">
+            <a href="https://medfy-alpha.vercel.app/#" title="Veja meus projetos no Github!" target="_blank" rel="noopener noreferrer">
+              <div><img src="./imgs/medfy.jpg" alt="MEDFY"></div>
+              <div>
+                <p>MEDFY - Clone do Spotify</p>
+              </div>
+            </a>
+          </li>
+          <li class="item-cards-prjs">
+            <a href="https://018medina.github.io/" title="Veja meus projetos no Github!" target="_blank" rel="noopener noreferrer">
+              <div><img src="./imgs/front end portfolio.jpg" alt="Portfolio"></div>
+              <div>
+                <p>Portfolio - Aplicação Front End</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>© 2022 Fábio Medina Favarin</p>
+  </footer>
+
+  <script>$("#header").load("header.html");</script>
+</body>
+
+</html>
